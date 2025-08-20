@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg, #27569c 0%, #95a6c4 100%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.login-box {
+    background-color: #ffffff;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 350px;
+    box-sizing: border-box; /* 👈 asegura que el padding no deforme */
+}
+
+.login-box h1 {
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+    text-align: left;          /* 👈 texto empieza a la izquierda */
+    box-sizing: border-box;    /* 👈 evita que se "cargue" hacia la derecha */
+    display: block;            /* 👈 asegura que cada input esté en su línea */
+}
+
+.login-box input:focus {
+    border-color: #27569c;
+    box-shadow: 0 0 8px rgba(17, 76, 203, 0.3);
+}
+
+.login-box button {
+    width: 100%;
+    padding: 12px;
+    background: #27569c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background 0.3s;
+    box-sizing: border-box; /* 👈 igual para que quede parejo */
+}
+
+.login-box button:hover {
+    background: #2575fc;
+}
+
+.login-box p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+}
+
+.login-box a {
+    color: #27569c;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.login-box a:hover {
+    text-decoration: underline;
+}
+
+/*registro*/
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #27569c 0%, #95a6c4 100%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Contenedor */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+/* Caja */
+.registro-box {
+  width: 350px;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+/* Título */
+.registro-box h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 30px;
+  color: #333;
+}
+
+/* Grupo de inputs */
+.input-group {
+  margin-bottom: 18px;
+}
+
+.input-group label {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 1px;
+  color: #444;
+}
+
+/* Inputs */
+.input-group input {
+  width: 100%;
+  padding: 10px 12px;   /* menos padding a la izquierda */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+  transition: all 0.3s;
+  text-align: left;      /* asegura que el texto no se centre */
+  box-sizing: border-box; /* evita que el padding desplace */
+}
+
+.input-group input::placeholder {
+  color: #999;
+  text-align: left; /* placeholder alineado a la izquierda */
+}
+
+.input-group input:focus {
+  border-color: #27569c;
+  box-shadow: 0 0 6px rgba(39, 86, 156, 0.4);
+}
+
+/* Botón */
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background: #27569c;
+  color: #fff;
+  font-weight: bold;
+  font-size: 17px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background: #2575fc;
+}
+
+/* Texto de redirección */
+.redirect {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.redirect a {
+  color: #27569c;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.redirect a:hover {
+  text-decoration: underline;
+}
+
+#particles-js {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #27569c 0%, #95a6c4 100%);
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
